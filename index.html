@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <title>Street Fight</title>
+        <link href="https://fonts.googleapis.com/css?family=Stylish&display=swap" rel="stylesheet">
+    </head>
+
+    <body>
+        <noscript>You need to enable JavaScript to run this game</noscript>
+        <!-- <h1 class="gameTitle">Street Fighter</h1> -->
+        <div id="root">
+            <h1 class="gameTitle">Street Fighter</h1>
+            <div class="life hide">
+                <div class="life-indicator1"></div>
+                <div class="life-indicator2"></div>
+            </div>
+        </div>
+
+        <div id="loading-overlay">
+            <img src="resources/logo.png"/>
+        </div>
+
+        <div class="modal hide">
+            <div class="info"> 
+                <div class="close">+</div>
+                <p class="about"></p>
+                <!-- <button class="changeData">Change!</button> -->
+            </div>
+        </div>
+
+        <div class="winner-modal hide">
+            <p class="winner-about"></p>
+        </div>
+
+        
+
+        <script src="dist/bundle.js"></script>
+        
+    </body>
+</html>
